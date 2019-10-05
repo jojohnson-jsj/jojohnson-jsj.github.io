@@ -288,7 +288,7 @@ body {
     margin-bottom: 2.5%;
 }
 
-  #project br {
+  #projects br {
     content: '';
   }
 }
@@ -499,6 +499,10 @@ and (max-device-width : 1024px) {
     text-align: justify;
   }
 
+  #about br {
+    content: normal;
+  }
+
   #projects p {
     font-size: 22px;
 
@@ -518,6 +522,10 @@ and (max-device-width : 1024px) {
     font-style: italic;
     margin-left: 700px;
     margin-bottom: 2.5%;
+  }
+
+  #projects br {
+    content: normal;
   }
 
   footer {
