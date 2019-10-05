@@ -199,7 +199,7 @@ body {
 @media only screen and (max-width: 480px) {
 
   .profile-img {
-    width: 50px;
+    width: 100px;
   }
 
   .desktop-img {
@@ -213,7 +213,7 @@ body {
   }
 
   #hero h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .bg-text {
@@ -222,12 +222,12 @@ body {
 
   #hero .btn {
     display: block;
-    width: 50px;
+    width: 100px;
 
     padding:0.25em;
     margin-top: 5%;
 
-    font-size: 0.5em;
+    font-size: 1em;
 
   }
 
