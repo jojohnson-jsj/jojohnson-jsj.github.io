@@ -196,7 +196,7 @@ body {
 
 
 /* Mobile Styles */ /* REVIEW:  */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 401px) {
 
   .profile-img {
     width: 100px;
@@ -213,7 +213,7 @@ body {
   }
 
   #hero h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .bg-text {
