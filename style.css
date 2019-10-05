@@ -259,7 +259,7 @@ and (orientation: portrait) {
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+/*@media only screen and (min-width: 401px) and (max-width: 960px) {
   .profile-img {
     width: 100px;
   }
