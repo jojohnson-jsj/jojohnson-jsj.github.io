@@ -196,11 +196,11 @@ body {
 
 
 /* Mobile Styles */ /* REVIEW:  */
-/*@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ration: 3)
+@media only screen and (min-width: 375px) and (max-width: 812px)
 and (orientation: portrait) {
 
   .profile-img {
-    width: 300px;
+    width: 100px;
   }
 
   .desktop-img {
@@ -223,12 +223,12 @@ and (orientation: portrait) {
 
   #hero .btn {
     display: block;
-    width: 200px;
+    width: 100px;
 
     padding:0.25em;
     margin-top: 5%;
 
-    font-size: 2em;
+    font-size: 1em;
 
   }
 
@@ -259,7 +259,7 @@ and (orientation: portrait) {
 }
 
 /* Tablet Styles */
-/*@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
   .profile-img {
     width: 100px;
   }
@@ -339,7 +339,7 @@ and (orientation: portrait) {
 
 /* iPad Styles*/
 
-/*@media only screen
+@media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
