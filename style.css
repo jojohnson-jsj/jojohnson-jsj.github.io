@@ -198,6 +198,10 @@ body {
 /* Mobile Styles */ /* REVIEW:  */
 @media only screen and (min-width: 320px){
 
+  header {
+    height: 70px;
+  }
+
   .profile-img {
     width: 150px;
   }
@@ -439,6 +443,10 @@ and (max-device-width : 1024px) {
 /* Desktop Styles */
 @media only screen and (min-width: 901px){
 
+  header {
+    height: 40px;
+  }
+
   .profile-img {
     width: 200px;
   }
@@ -446,7 +454,7 @@ and (max-device-width : 1024px) {
   .desktop-img {
     width: 250px;
     top: 135%;
-    left: 68%;
+    left: 62%;
   }
 
   .code-img {
