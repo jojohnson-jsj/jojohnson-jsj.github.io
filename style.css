@@ -264,15 +264,15 @@ body {
   }
 
   .desktop-img {
-    width: 140px;
-    top: 135%;
-    left: 75%;
+    width: 100px;
+    top: 150%;
+    left: 80%;
   }
 
   .code-img {
-    width: 150px;
-    left: 15%;
-    top: 238%;
+    width: 100px;
+    left: 10%;
+    top: 250%;
   }
 
   #hero h1 {
