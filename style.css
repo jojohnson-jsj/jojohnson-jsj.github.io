@@ -196,7 +196,7 @@ body {
 
 
 /* Mobile Styles */ /* REVIEW:  */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
 
   .profile-img {
     width: 50px;
@@ -347,15 +347,15 @@ and (max-device-width : 1024px) {
   }
 
   .desktop-img {
-    width: 140px;
-    top: 135%;
-    left: 75%;
+    width: 100px;
+    top: 150%;
+    left: 80%;
   }
 
   .code-img {
-    width: 150px;
-    left: 15%;
-    top: 238%;
+    width: 100px;
+    left: 10%;
+    top: 250%;
   }
 
   #hero h1 {
