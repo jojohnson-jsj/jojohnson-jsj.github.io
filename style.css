@@ -209,7 +209,7 @@ body {
   .desktop-img {
     width: 110px;
     position: absolute;
-    top: 115%;
+    top: 120%;
     left: 0;
     right: 0;
   }
@@ -258,8 +258,8 @@ body {
   #about p {
     font-size: 16px;
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 
   }
 
@@ -271,8 +271,8 @@ body {
     font-size: 16px;
     text-align: center;
     top: 250%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 
   }
 
