@@ -1,0 +1,239 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#hero .profile-img {
+
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    bottom: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#about .desktop-img {
+
+  width: 250px;
+  position: absolute;
+  top: 135%;
+  left: 1000px;
+  margin: auto;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Muli', sans-serif;
+}
+
+header img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+main ul * {
+  display: inline;
+}
+
+main li {
+  margin: 20px;
+}
+
+main li a {
+  color: black;
+  text-decoration: none;
+}
+#hero .btn {
+  display: block;
+  width: 200px;
+
+  padding:1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+
+  border: 3px solid white;
+
+
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    font-family: 'Muli', sans-serif;
+
+
+}
+
+header * {
+    display: inline;
+}
+
+
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero .bg-image {
+  /* The image used */
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.85)), url('orlandobackground.jpg');
+
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about h2 {
+
+  margin-left: -125%;
+
+}
+#about p {
+  font-size: 22px;
+
+  margin-left: -155px;
+  text-align: justify;
+}
+
+#about {
+    background-color: #d9d9d9;
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
+}
+
+#contact .section-inner p {
+  text-decoration: none;
+
+}
+
+#projects {
+    background-color: #d9d9d9;
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
+}
+
+#projects p {
+  font-size: 22px;
+
+  margin-left: 250px;
+  text-align: right;
+  top: 250%;
+
+}
+
+#projects h2 {
+
+  position: absolute;
+  top: 225%;
+  margin-left: 700px;
+}
+
+#projects h3 {
+  font-style: italic;
+  position: absolute;
+  top: 235%;
+  margin-left: 700px;
+}
+
+#projects .code-img {
+
+  width: 200px;
+  position: absolute;
+  top: 228%;
+  left: 20%;
+  margin: auto;
+}
+
+#contact {
+    background-color: #d9d9d9;
+
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url();
+}
+
+body {
+  padding-bottom: 20px;
+}
