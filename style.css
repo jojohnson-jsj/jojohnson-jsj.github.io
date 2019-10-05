@@ -450,7 +450,7 @@ and (max-device-width : 1024px) {
 
   .code-img {
     width: 200px;
-    left: 22%;
+    left: -40%;
     top: 238%;
   }
 
