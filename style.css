@@ -1,14 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body, html {
   height: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 #hero .profile-img {
 
-    width: 200px;
     position: absolute;
     border-radius: 50%;
     top: 0;
@@ -21,11 +22,30 @@ body, html {
 
 #about .desktop-img {
 
-  width: 250px;
   position: absolute;
-  top: 135%;
-  left: 1000px;
   margin: auto;
+  max-width: 100%;
+}
+
+#projects .code-img {
+
+  position: absolute;
+  margin: auto;
+  max-width: 100%;
+}
+
+#hero .bg-image {
+  /* The image used */
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.85)), url('orlandobackground.jpg');
+
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Position text in the middle of the page/image */
@@ -38,20 +58,27 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+#hero .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+  text-decoration: none;
+
+  border: 3px solid white;
+
+
 }
 
 body {
     margin: 0;
 
     font-family: 'Muli', sans-serif;
-}
-
-header img {
-  height: 80px;
-  border-radius: 50%;
 }
 
 main ul * {
@@ -66,24 +93,7 @@ main li a {
   color: black;
   text-decoration: none;
 }
-#hero .btn {
-  display: block;
-  width: 200px;
 
-  padding:1em;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
-  color: white;
-  text-decoration: none;
-  font-size: 1.5em;
-
-  border: 3px solid white;
-
-
-
-}
 
 header {
 
@@ -135,7 +145,6 @@ footer {
 }
 
 #hero h1 {
-    font-size: 3em;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
 }
@@ -153,29 +162,8 @@ header a {
     color: black;
 }
 
-#hero .bg-image {
-  /* The image used */
-  width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.85)), url('orlandobackground.jpg');
-
-
-  /* Center and scale the image nicely */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#about h2 {
-
-  margin-left: -125%;
-
-}
 #about p {
-  font-size: 22px;
 
-  margin-left: -155px;
   text-align: justify;
 }
 
@@ -196,38 +184,6 @@ header a {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
 }
 
-#projects p {
-  font-size: 22px;
-
-  margin-left: 250px;
-  text-align: right;
-  top: 250%;
-
-}
-
-#projects h2 {
-
-  position: absolute;
-  top: 225%;
-  margin-left: 700px;
-}
-
-#projects h3 {
-  font-style: italic;
-  position: absolute;
-  top: 235%;
-  margin-left: 700px;
-}
-
-#projects .code-img {
-
-  width: 200px;
-  position: absolute;
-  top: 228%;
-  left: 20%;
-  margin: auto;
-}
-
 #contact {
     background-color: #d9d9d9;
 
@@ -236,4 +192,218 @@ header a {
 
 body {
   padding-bottom: 20px;
+}
+
+
+/* Mobile Styles */ /* REVIEW:  */
+@media only screen and (max-width: 400px) {
+
+  .profile-img {
+    width: 50px;
+  }
+
+  .desktop-img {
+    width: 70px;
+    top: 135%;
+    left: 75%;
+  }
+
+  .code-img {
+    width: 50px;
+  }
+
+  #hero h1 {
+    font-size: 1.5em;
+  }
+
+  .bg-text {
+    top:65%;
+  }
+
+  #hero .btn {
+    display: block;
+    width: 50px;
+
+    padding:0.25em;
+    margin-top: 5%;
+
+    font-size: 0.5em;
+
+  }
+
+  #about h2 {
+    margin-left: -125%;
+    font-size: 0.5em;
+  }
+
+  #about p {
+    font-size: 8px;
+
+    margin-left: -200px;
+    text-align: justify;|
+  }
+
+  #projects p {
+    font-size: 8px;
+
+    margin-left: 250px;
+    text-align: right;
+    top: 250%;
+
+  }
+
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .profile-img {
+    width: 100px;
+  }
+
+  .desktop-img {
+    width: 140px;
+    top: 135%;
+    left: 75%;
+  }
+
+  .code-img {
+    width: 150px;
+    left: 15%;
+    top: 238%;
+  }
+
+  #hero h1 {
+    font-size: 2.5em;
+  }
+
+  .bg-text {
+    top:65%;
+  }
+
+  #hero .btn {
+    display: block;
+    width: 100px;
+
+    padding:0.5em;
+    margin-top: 5%;
+
+    font-size: 1em;
+
+  }
+
+  #about h2 {
+    margin-left: -162%;
+    font-size: 1.5em;
+  }
+
+  #about p {
+    font-size: 16px;
+
+    margin-left: -155px;
+    text-align: justify;
+  }
+
+  #projects p {
+    font-size: 16px;
+
+    margin-left: 225px;
+    text-align: auto;
+    top: 250%;
+
+  }
+
+  #projects h2 {
+    font-size: 1.5em;
+
+    margin-left: 86%;
+    margin-bottom: 2.5%;
+
+  }
+
+  #projects h3 {
+    font-size: 1em;
+    font-style: italic;
+    margin-left: 560px;
+    margin-bottom: 2.5%;
+  }
+
+  footer {
+    font-size: .75em;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+  .profile-img {
+    width: 200px;
+  }
+
+  .desktop-img {
+    width: 250px;
+    top: 135%;
+    left: 68%;
+  }
+
+  .code-img {
+    width: 200px;
+    left: 22%;
+    top: 238%;
+  }
+
+  #hero h1 {
+    font-size: 3em;
+  }
+
+  #hero .btn {
+    display: block;
+    width: 200px;
+
+    padding:1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+
+  }
+
+  #about h2 {
+    margin-left: -125%;
+    font-size: 2.5em;
+  }
+
+  #about p {
+    font-size: 22px;
+    margin-top: 2.5%;
+    margin-left: -155px;
+    text-align: justify;
+  }
+
+  #projects p {
+    font-size: 22px;
+
+    margin-left: 250px;
+    text-align: right;
+  }
+
+  #projects h2 {
+    font-size: 2.5em;
+
+    margin-left: 82%;
+    margin-bottom: 2.5%;
+
+  }
+
+  #projects h3 {
+    font-style: italic;
+    margin-left: 700px;
+    margin-bottom: 2.5%;
+  }
+
+  footer {
+    font-size: 1em;
+  }
 }
