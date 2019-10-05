@@ -196,7 +196,7 @@ body {
 
 
 /* Mobile Styles */ /* REVIEW:  */
-@media only screen and (max-width: 812px)
+@media only screen and (max-width: 960px)
 and (orientation: portrait) {
 
   .profile-img {
