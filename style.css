@@ -196,11 +196,10 @@ body {
 
 
 /* Mobile Styles */ /* REVIEW:  */
-@media only screen and (min-width: 375px) and (max-width: 812px)
-and (orientation: portrait) {
+@media only screen and (min-width: 320px){
 
   .profile-img {
-    width: 100px;
+    width: 200px;
   }
 
   .desktop-img {
@@ -419,7 +418,8 @@ and (max-device-width : 1024px) {
   }
 }
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 961px)
+and (max-width: 1281px){
 
   .profile-img {
     width: 200px;
