@@ -258,6 +258,11 @@ body {
   #about p {
     font-size: 16px;
     text-align: center;
+
+  }
+
+  #about br {
+    content: '';
   }
 
   #projects p {
@@ -280,6 +285,10 @@ body {
     text-align: center;
     margin-bottom: 2.5%;
 }
+
+  #project p {
+    content: '';
+  }
   body {
     background-color: #F09A9D; /* Red */
   }
