@@ -335,6 +335,88 @@ body {
   }
 }
 
+
+/* iPad Styles*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+  .profile-img {
+    width: 100px;
+  }
+
+  .desktop-img {
+    width: 140px;
+    top: 135%;
+    left: 75%;
+  }
+
+  .code-img {
+    width: 150px;
+    left: 15%;
+    top: 238%;
+  }
+
+  #hero h1 {
+    font-size: 2.5em;
+  }
+
+  .bg-text {
+    top:65%;
+  }
+
+  #hero .btn {
+    display: block;
+    width: 100px;
+
+    padding:0.5em;
+    margin-top: 5%;
+
+    font-size: 1em;
+
+  }
+
+  #about h2 {
+    margin-left: -162%;
+    font-size: 1.5em;
+  }
+
+  #about p {
+    font-size: 16px;
+
+    margin-left: -155px;
+    text-align: justify;
+  }
+
+  #projects p {
+    font-size: 16px;
+
+    margin-left: 225px;
+    text-align: auto;
+    top: 250%;
+
+  }
+
+  #projects h2 {
+    font-size: 1.5em;
+
+    margin-left: 86%;
+    margin-bottom: 2.5%;
+
+  }
+
+  #projects h3 {
+    font-size: 1em;
+    font-style: italic;
+    margin-left: 560px;
+    margin-bottom: 2.5%;
+  }
+
+  footer {
+    font-size: .75em;
+  }
+}
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
 
