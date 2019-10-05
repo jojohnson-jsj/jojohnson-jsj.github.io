@@ -289,9 +289,6 @@ body {
   #project p {
     content: '';
   }
-  body {
-    background-color: #F09A9D; /* Red */
-  }
 }
 
 /* Tablet Styles */
