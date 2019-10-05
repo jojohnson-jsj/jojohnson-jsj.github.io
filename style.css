@@ -199,18 +199,19 @@ body {
 @media only screen and (min-width: 320px){
 
   .profile-img {
-    width: 500px;
+    width: 150px;
   }
 
   .desktop-img {
-    width: 70px;
+    width: 110px;
+    position: absolute;
     top: 135%
     left: 0;
     right: 0;
   }
 
   .code-img {
-    width: 50px;
+    width: 100px;
     position: absolute;
     top: 225%;
     left: 0;
