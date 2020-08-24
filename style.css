@@ -15,8 +15,8 @@ body, html {
 #hero .NewProfile-img {
 
     position: absolute;
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 25%;
+    max-height: 25%;
     border-radius: 50%;
     top: 30%;
     left: 0;
