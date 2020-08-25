@@ -251,7 +251,7 @@ body {
   }
 
   .profile-img {
-    width: 40vw;
+    width: 50vw;
   }
 
   .airplane-img {
@@ -295,7 +295,7 @@ body {
   }
 
   #hero .Cbtn {
-    display: block;
+    display: inline-block;
     width: 200px;
 
     padding:0.25em;
@@ -306,7 +306,7 @@ body {
   }
 
   #hero .Javabtn {
-    display: block;
+    display: inline-block;
     width: 200px;
 
     padding:0.25em;
