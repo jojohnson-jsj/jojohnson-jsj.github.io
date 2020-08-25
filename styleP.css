@@ -295,7 +295,7 @@ body {
   }
 
   #hero .Cbtn {
-    display: inline-block;
+    display: block;
     width: 200px;
 
     padding:0.25em;
@@ -306,7 +306,7 @@ body {
   }
 
   #hero .Javabtn {
-    display: inline-block;
+    display: block;
     width: 200px;
 
     padding:0.25em;
