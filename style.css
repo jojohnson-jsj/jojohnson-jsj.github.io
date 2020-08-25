@@ -18,7 +18,7 @@ body, html {
     max-width: 25%;
     max-height: 25%;
     border-radius: 50%;
-    top: 30%;
+    top: 28%;
     left: 0;
     right: 0;
     margin: auto;
@@ -75,9 +75,22 @@ body, html {
 }
 
 #hero .btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  color: white;
+  text-decoration: none;
+
+  border: 3px solid white;
+
+
+}
+
+#hero .projectsbtn {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
 
   color: white;
   text-decoration: none;
@@ -255,7 +268,18 @@ body {
   }
 
   #hero .btn {
-    display: block;
+    display: inline-block;
+    width: 200px;
+
+    padding:0.25em;
+    margin-top: 5%;
+
+    font-size: 2em;
+
+  }
+
+  #hero .projectsbtn {
+    display: inline-block;
     width: 200px;
 
     padding:0.25em;
@@ -406,13 +430,25 @@ body {
   }
 
   #hero .btn {
-    display: block;
+    display: inline-block;
     width: 200px;
 
     padding:1em;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5em;
+
+  }
+
+  #hero .projectsbtn {
+    display: inline-block;
+    width: 200px;
+
+    padding:1em;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 1.5em;
 
   }
